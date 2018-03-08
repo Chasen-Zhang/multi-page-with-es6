@@ -89,7 +89,17 @@ module.exports = {
                             options: {
                                 minimize: true
                             }
-                        }
+                        },{
+                            loader: 'postcss-loader',
+                            options: {
+                                ident: 'postcss',
+                                plugins: (loader) => [
+                                    require('postcss-import')({ root: loader.resourcePath }),
+                                    require('postcss-cssnext')(),
+                                    require('cssnano')()
+                                ]
+                            }
+                        },
                     ]
                 })
             }, {
@@ -101,6 +111,10 @@ module.exports = {
             }, {
                 test: /\.(png|jpg|gif)$/,
                 loader: 'url-loader?limit=8192&name=./img/[hash].[ext]'
+            },
+            {
+                test: /\.(htm|html)$/i,
+                use:[ 'html-withimg-loader']
             }
         ]
     },
