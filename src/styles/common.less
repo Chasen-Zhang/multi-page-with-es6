@@ -1,9 +1,220 @@
-*{
+@charset "UTF-8";
+/*CSS Reset*/
+body, div, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, table, tr, td, th, button, input, select, textarea {
   margin: 0;
   padding: 0;
 }
-body,html {
-  width:100%;
+
+img {
+  display: block;
+  border: none;
+  vertical-align: middle;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+  outline: none;
+}
+
+input, select, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  border: 1px solid #ddd;
+}
+
+/*textarea{resize:none;}*/
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+em, i, strong, b {
+  font-style: normal;
+  font-weight: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+  display: block;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/*table td,table th{ border:1px solid #ddd;}*/
+table th {
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+/*@font-face {
+  font-family: "akkR";
+  src: url('../font/AKKURATPRO/AKKURATPRO-REGULAR_0.eot');
+  src:
+          url('../font/AKKURATPRO/AKKURATPRO-REGULAR_0.eot?#iefix') format('embedded-opentype'),
+          url('../font/AKKURATPRO/AKKURATPRO-REGULAR_0.woff') format('woff'),
+          url('../font/AKKURATPRO/AKKURATPRO-REGULAR_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "ErasBoldITC";
+  src: url('../font/ERASBD.eot');
+  src:
+          url('../font/ERASBD.eot?#iefix') format('embedded-opentype'),
+          url('../font/ERASBD.woff') format('woff'),
+          url('../font/ERASBD.ttf') format('truetype');
+}*/
+
+.ErasBoldITC{
+  font-family: "ErasBoldITC";
+}
+
+html, body {
+  width: 100%;
   height: 100%;
-  background-color: antiquewhite!important;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 20px 'akkR','Microsoft YaHei',SimHei;
+  color: #363636;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #4a4a4a;
+}
+
+:after, :before, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*box setting*/
+.wh100 {width:100%;height:100%}
+.w100 {  width: 100%;  }
+.h100 {  height: 100%;  }
+.wh50 {width:50%;height:50%}
+.w50 {  width: 50%;  }
+.h50 {  height: 50%;  }
+
+.db {  display: block;  }
+
+.dl {  display: inline-block;  }
+
+.hide {  display: none;  }
+
+.hidden {  visibility: hidden;  }
+
+/*clear and float*/
+.clear::after, .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {  float: left;  }
+
+.fr {  float: right; }
+/*cursor*/
+.cursor {  cursor: pointer;  }
+
+/*font*/
+.fs12 {  font-size: 12px;  }
+.fs14 {  font-size: 14px;  }
+.fs16 {  font-size: 16px;  }
+.fs18 {  font-size: 18px;  }
+.fs20 {  font-size: 20px;  }
+.fs22 {  font-size: 22px;  }
+.fs24 {  font-size: 24px;  }
+.fs26 {  font-size: 26px;  }
+.fs28 {  font-size: 28px;  }
+.fs30 {  font-size: 30px;  }
+.fs32 {  font-size: 32px;  }
+.fs34 {  font-size: 34px;  }
+.fs36 {  font-size: 36px;  }
+.fs38 {  font-size: 38px;  }
+.fs40 {  font-size: 40px;  }
+.fs50 {  font-size: 50px;  }
+.fs58{  font-size: 58px;  }
+.fs120 {  font-size: 120px;  }
+
+/*position*/
+.pr {  position: relative;  }
+.pa {  position: absolute;  }
+.pf {  position: fixed;  }
+/*text setting*/
+.giveMeEllipsis {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-normal {
+  font-weight: normal;
+}
+
+.t-weight {
+  font-weight: 700;
+}
+
+.t-weightM {
+  font-weight: 400;
+}
+
+.t-italic {
+  font-style: italic;
+}
+
+.t-transformD {
+  text-transform: uppercase;
+}
+
+.t-transformX {
+  text-transform: lowercase;
+}
+
+.t-transformXD {
+  text-transform: capitalize;
 }

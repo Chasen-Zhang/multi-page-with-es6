@@ -14,7 +14,7 @@ let Entries = {};
 config.entrys.forEach((page) => {
     console.log(page);
     let htmlPlugin = new HtmlWebpackPlugin({ //根据模板插入css/js等生成最终HTML
-        favicon: config.favicon, //favicon路径，通过webpack引入同时可以生成hash值
+       /* favicon: config.favicon, //favicon路径，通过webpack引入同时可以生成hash值*/
         filename: page.filename, //生成的html存放路径，相对于path
         template: page.template, //html模板路径
         title:page.title,
@@ -78,33 +78,63 @@ module.exports = {
             //     test: /\.html$/,
             //     loader: "html-loader?attrs=img:src img:data-src"
             // },
+
             {
-                test: /\.css$/,
+                "include": [
+                    path.resolve(__dirname, "src\/style\/styles.css")
+                ],
+                "test": /\.css$/,
+                "use": [
+                    "style-loader",
+                    {
+                        "loader": "css-loader",
+                        "options": {
+                            "sourceMap": false,
+                            "importLoaders": 1
+                        }
+                    }
+                ]
+            },
+            {
+                test: /\.scss|sass$/,
                 use: ExtractTextPlugin.extract({
                     fallback: "style-loader",
-                    publicPath:'../',
+                    publicPath: '../',
                     use: [
                         {
                             loader: 'css-loader',
                             options: {
                                 minimize: true
                             }
-                        },{
-                            loader: 'postcss-loader',
-                            options: {
-                                ident: 'postcss',
-                                plugins: (loader) => [
-                                    require('postcss-import')({ root: loader.resourcePath }),
-                                    require('postcss-cssnext')(),
-                                    require('cssnano')()
-                                ]
-                            }
                         },
+                        {
+                            loader: 'sass-loader',
+                            options: {
+                                minimize: true
+                            }
+                        }
                     ]
                 })
             }, {
                 test: /\.less$/,
-                loader: ExtractTextPlugin.extract('css-loader!less-loader')
+                use:ExtractTextPlugin.extract({
+                    fallback: "style-loader",
+                    publicPath: '../',
+                    use:[
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                minimize: true
+                            }
+                        },
+                        {
+                            loader: 'less-loader',
+                            options: {
+                                minimize: true
+                            }
+                        }
+                    ]
+                }),
             }, {
                 test: /\.(woff|woff2|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
                 loader: 'file-loader?name=./fonts/[name].[ext]'

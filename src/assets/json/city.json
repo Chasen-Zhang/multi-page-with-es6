@@ -1,0 +1,146 @@
+{
+  "name":"中国",
+  "children":
+  [
+    {
+      "name":"浙江" ,
+      "children":
+      [
+        {"name":"杭州","value":1 },
+        {"name":"宁波","value":1 },
+        {"name":"温州","value":1 },
+        {"name":"绍兴","value":1 }
+      ]
+    },
+    {
+      "name":"广西" ,
+      "children":
+      [
+        {"name":"桂林","value":1},
+        {"name":"南宁","value":1},
+        {"name":"柳州","value":1},
+        {"name":"防城港","value":1}
+      ]
+    },
+    {
+      "name":"黑龙江",
+      "children":
+      [
+        {"name":"哈尔滨","value":1},
+        {"name":"齐齐哈尔","value":1},
+        {"name":"牡丹江","value":1},
+        {"name":"大庆","value":1}
+      ]
+    },
+    {
+      "name":"新疆" ,
+      "children":
+      [
+        {"name":"乌鲁木齐","value":1},
+        {"name":"克拉玛依","value":1},
+        {"name":"吐鲁番","value":1},
+        {"name":"哈密","value":1}
+      ]
+    },
+    {
+      "name":"河北" ,
+      "children":
+      [
+        {"name":"石家庄","value":1},
+        {"name":"唐山","value":1},
+        {"name":"邯郸","value":1},
+        {"name":"秦皇岛","value":1}
+      ]
+    },
+    {
+      "name":"西藏" ,
+      "children":
+      [
+        {"name":"拉萨","value":1},
+        {"name":"昌都","value":1},
+        {"name":"林芝","value":1}
+      ]
+    },
+    {
+      "name":"江苏" ,
+      "children":
+      [
+        {"name":"南京","value":1},
+        {"name":"无锡","value":1},
+        {"name":"徐州","value":1},
+        {"name":"常州","value":1},
+        {"name":"连云港","value":1},
+        {"name":"淮安","value":1}
+      ]
+    },
+    {
+      "name":"江苏" ,
+      "children":
+      [
+        {"name":"南京","value":1},
+        {"name":"无锡","value":1},
+        {"name":"徐州","value":1},
+        {"name":"常州","value":1},
+        {"name":"连云港","value":1},
+        {"name":"淮安","value":1}
+      ]
+    },
+    {
+      "name":"湖南" ,
+      "children":
+      [
+        {"name":"长沙","value":1},
+        {"name":"株洲","value":1},
+        {"name":"湘潭","value":1},
+        {"name":"衡阳","value":1},
+        {"name":"邵阳","value":1},
+        {"name":"岳阳","value":1}
+      ]
+    },
+    {
+      "name":"海南" ,
+      "children":
+      [
+        {"name":"海口","value":1},
+        {"name":"三亚","value":1},
+        {"name":"三沙","value":1}
+      ]
+    },
+    {
+      "name":"陕西" ,
+      "children":
+      [
+        {"name":"西安","value":1},
+        {"name":"咸阳","value":1},
+        {"name":"汉中","value":1},
+        {"name":"安康","value":1},
+        {"name":"榆林","value":1},
+        {"name":"延安","value":1}
+      ]
+    },
+    {
+      "name":"甘肃" ,
+      "children":
+      [
+        {"name":"兰州","value":1},
+        {"name":"酒泉","value":1},
+        {"name":"金昌","value":1},
+        {"name":"天水","value":1},
+        {"name":"嘉峪关","value":1},
+        {"name":"武威","value":1}
+      ]
+    },
+    {
+      "name":"福建" ,
+      "children":
+      [
+        {"name":"福州","value":1},
+        {"name":"厦门","value":1},
+        {"name":"三明","value":1},
+        {"name":"漳州","value":1},
+        {"name":"莆田","value":1},
+        {"name":"泉州","value":1}
+      ]
+    }
+  ]
+}
