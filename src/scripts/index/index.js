@@ -811,8 +811,8 @@ class Index {
      *
      * */
     drawMap() {
-        let width = 950;
-        let height = 750;
+        let width = 1366;
+        let height = 650;
 
         /** 颜色插入暂时还没用到*/
         var a = 'rgb(0, 0, 0)';
@@ -820,11 +820,11 @@ class Index {
         var interpolator = d3.interpolateRgb(a, b);
         // 结果为 rgb(50, 50, 50)
         let tempColor = [];
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 20; i++) {
             let co = d3.schemeCategory20;
             let length = co.length;
             for (let j = 0; j < length; j++) {
-                tempColor.push(co[j]);
+                tempColor.push('#145c54');
             }
         }
 
@@ -845,7 +845,7 @@ class Index {
         let path = d3.geoPath()
             .projection(projection);
 
-        d3.json('../../assets/json/china.geojson?t=' + new Date().getTime(), function (error, root) {
+        d3.json('../../assets/json/world_simple.json?t=' + new Date().getTime(), function (error, root) {
             if (error)
                 return console.error(error);
             console.log(root.features);
@@ -857,7 +857,7 @@ class Index {
                 .data(root.features)
                 .enter()
                 .append('path')
-                .attr('stroke', '#000')
+                .attr('stroke', '#01a3e1')
                 .attr('stroke-width', 1)
                 .style('cursor', 'pointer')
                 .attr('fill', function (d, i) {
@@ -872,6 +872,72 @@ class Index {
                     d3.select(this)
                         .attr('fill', tempColor[i])
                 });
+
+            var peking = [116.3, 39.9];
+            var proPeking = projection(peking);
+
+            svg.append('defs')
+                .append('pattern')
+                .attr('id','oriange')
+                .append('image')
+                .attr('xlink:href','../assets/points.png')
+                .attr('class','pointer');
+
+            d3.json('../../assets/json/CountryLonLatCheck.json?t=' + new Date().getTime(), function (error, root) {
+                console.log(root.country);
+                var allPosition = [];
+                var countryLocation = root.country;
+                var len = countryLocation.length;
+                for(var i=0;i<len;i++){
+                    allPosition.push(projection(countryLocation[i].lonlat));
+                }
+               /* console.log(allPosition);*/
+               /* svg.append('rect')
+                    .data(allPosition)
+
+                    .attr('fill','url(#oriange)')*/
+               svg.selectAll('rect')
+                   .data(allPosition)
+                   .enter()
+                   .append('rect')
+                   .attr("x",function (d) {
+                       console.log('position01:',d,projection(d))
+                       return projection(d)[0];
+                    //  return 21;
+                   })
+                   .attr("y",function (d) {
+                       console.log('position02:',projection(d))
+                       //return projection(d)[1];
+                   })
+                 /*  .append('rect')
+                   .attr('fill','url(#oriange)')*/
+            });
+
+          /*  svg.append("image")
+                .attr("class","point")
+                .attr("x",proPeking[0])
+                .attr("y",proPeking[1])
+                .attr('xlink:href','../assets/points.png');*/
+                /*.attr("r",8);*/
+            /*      svg.selectAll('circle')
+                      .data(root.features)
+                      .enter()
+                      .append('circle')
+                      .attr('r',20)
+                      .attr('cx',function (d) {
+                          console.log('-------------',d)
+                          /!*var geometry = d.geometry
+                          if(geometry){
+                              var coordinates = geometry.coordinates;
+                             console.log(coordinates[0][0])
+                              var item = coordinates[0][0];
+                             return item[0];
+                          }*!/
+                      })
+                      .attr('cy',function (d) {
+
+                      })
+                      .attr('fill','red')*/
             /* .append("text")
              .text(function(d,i){
                  return d.properties.name;
@@ -880,7 +946,7 @@ class Index {
 
 
             /** 添加文字*/
-            svg.selectAll("text")
+           /* svg.selectAll("text")
                 .data(root.features)
                 .enter()
                 .append("text")
@@ -896,16 +962,16 @@ class Index {
                     var centroid = path.centroid(d),
                         y = centroid[1];
                     return y;
-                })
+                })*/
                 /*.attr("transform", function(d) {
                     var centroid = path.centroid(d),
                         x = centroid[0],
                         y = centroid[1];
                     return `translate(${x},${y})`;
                 })*/
-                .attr('fill', '#000')
+              /*  .attr('fill', '#000')
                 .attr('font-size', '14px')
-                .attr('text-anchor', 'middle');
+                .attr('text-anchor', 'middle');*/
 
         });
 
@@ -913,7 +979,7 @@ class Index {
             console.log(d3.event);
             d3.select('body').select("svg").selectAll('path')
                 .attr("transform", d3.event.transform);
-            d3.select('body').select("svg").selectAll('text')
+            d3.select('body').select("svg").selectAll('image')
                 .attr("transform", d3.event.transform);
 
         }
@@ -1039,7 +1105,6 @@ class Index {
                 })
                 .selectAll("rect")
                 .data(function (d) {
-                    console.log('d0',d);
                     return d;
                 })
                 .enter()
@@ -1103,4 +1168,4 @@ class Index {
 
 let index = new Index();
 //index.saySomething();
-index.drawStack();
+index.drawMap();
