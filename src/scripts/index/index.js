@@ -813,7 +813,21 @@ class Index {
     drawMap() {
         let width = 1366;
         let height = 650;
-
+        var district = [
+          '加拿大区',
+          '美国区',
+          '拉美大区',
+          '东北欧区',
+          '西欧区',
+          '北部非洲区',
+          '南部非洲区',
+          '中亚区',
+          '东南亚区',
+          '俄罗斯区',
+          '中国区',
+          '日本区',
+          '南太区'
+        ];
         /** 颜色插入暂时还没用到*/
         var a = 'rgb(0, 0, 0)';
         var b = 'rgb(100, 100, 100)';
@@ -824,7 +838,7 @@ class Index {
             let co = d3.schemeCategory20;
             let length = co.length;
             for (let j = 0; j < length; j++) {
-                tempColor.push('#145c54');
+                tempColor.push('rgba(6,18,47,0.85)');
             }
         }
 
@@ -835,7 +849,7 @@ class Index {
             .attr('class', 'pack')
             .attr("viewBox", "0 0 " + width + " " + height)
             .call(d3.zoom().scaleExtent([0.2, 5]).on("zoom", zoomed));
-        let projection = d3.geoMercator();
+        let projection = d3.geoEquirectangular();
 
         /**     A 处*/
         /* .center([107, 31])
@@ -845,7 +859,53 @@ class Index {
         let path = d3.geoPath()
             .projection(projection);
 
-        d3.json('../../assets/json/world_simple.json?t=' + new Date().getTime(), function (error, root) {
+
+        var svgInitW=width;
+        var svgInitH=height;
+        var svgVBX=0;
+        var svgVBY=0;
+        var svgScaleK=1;
+        function zoomed() {
+            /*console.log(d3.event);
+
+            var dir = d3.event.sourceEvent.wheelDelta;
+            svgScaleK=d3.event.transform.k;
+
+
+            if(dir>0){
+                console.log('放大');
+                svgInitW-=20;
+                svgInitH-=20;
+                console.log(svgInitW,svgInitH);
+
+
+            }else if(dir<0){
+                console.log('缩小');
+                svgInitW+=20;
+                svgInitH+=20;
+                console.log(svgInitW,svgInitH);
+            }else{
+
+            }
+          /!*  svgVBX = d3.event.sourceEvent.x;
+            svgVBY = d3.event.sourceEvent.y;*!/
+            if(d3.event.sourceEvent.type=='mousemove'){
+                svgVBX-=(d3.event.transform.x/(svgScaleK));
+                svgVBY-=(d3.event.transform.y/(svgScaleK));
+            }
+            d3.select('body').select('svg')
+                .attr('viewBox',`${svgVBX} ${svgVBY} ${svgInitW}  ${svgInitH}`)*/
+            d3.select('body').select("svg").selectAll('g')
+                .attr("transform", d3.event.transform);
+           /* d3.select('body').select("svg").selectAll('image')
+                .attr("transform", d3.event.transform);*/
+            /*d3.select('body').select('svg')
+                .attr('viewBox','0 0 1800 700')*/
+           /* d3.select('body').select("svg").selectAll('rect')
+                .attr("transform", d3.event.transform);*/
+        }
+
+        d3.json('./assets/json/world_simple.json?t=' + new Date().getTime(), function (error, root) {
             if (error)
                 return console.error(error);
             console.log(root.features);
@@ -853,13 +913,14 @@ class Index {
             /**    简化 A 处代码，没必要手动设置缩放，中心*/
             projection.fitSize([width, height], root);
             /**   画路径*/
-            svg.selectAll('path')
+            var pathes = svg.append('g').selectAll('path')
                 .data(root.features)
                 .enter()
                 .append('path')
                 .attr('stroke', '#01a3e1')
                 .attr('stroke-width', 1)
                 .style('cursor', 'pointer')
+                .style('box-shadow','10px 10px 5px #888888')
                 .attr('fill', function (d, i) {
                     return tempColor[i];
                 })
@@ -876,49 +937,136 @@ class Index {
             var peking = [116.3, 39.9];
             var proPeking = projection(peking);
 
-            svg.append('defs')
+           /* svg.append('defs')
                 .append('pattern')
+                .attr('width',28)
+                .attr('height',28)
                 .attr('id','oriange')
                 .append('image')
-                .attr('xlink:href','../assets/points.png')
-                .attr('class','pointer');
+                .attr('xlink:href','../assets/points0.png')
+                .attr('class','pointer');*/
 
-            d3.json('../../assets/json/CountryLonLatCheck.json?t=' + new Date().getTime(), function (error, root) {
+            d3.json('./assets/json/CountryLonLatCheck.json?t=' + new Date().getTime(), function (error, root) {
                 console.log(root.country);
                 var allPosition = [];
                 var countryLocation = root.country;
+
+                /*countryLocation=[ {
+                    //lonlat: [39.894769, 116.388248],
+                    lonlat: [116.388248,39.894769]
+                }];*/
+
                 var len = countryLocation.length;
-                for(var i=0;i<len;i++){
+                /*for(var i=0;i<len;i++){
                     allPosition.push(projection(countryLocation[i].lonlat));
-                }
+                }*/
                /* console.log(allPosition);*/
                /* svg.append('rect')
                     .data(allPosition)
 
                     .attr('fill','url(#oriange)')*/
-               svg.selectAll('rect')
-                   .data(allPosition)
+               console.log('allPosition:',allPosition);
+               svg.append('g').selectAll('image')
+                   //.data(allPosition)
+                   .data(countryLocation)
                    .enter()
-                   .append('rect')
+                   .append('image')
                    .attr("x",function (d) {
-                       console.log('position01:',d,projection(d))
-                       return projection(d)[0];
+                       //console.log('position01:',d);
+                        var x =projection(d.lonlat)[0]-14;
+                        if(x==669) {
+                            d3.select(this).remove();
+                            return;
+                        }
+                       return x;
+                       //return d[0];
+                       //return projection(d)[0];
                     //  return 21;
                    })
                    .attr("y",function (d) {
-                       console.log('position02:',projection(d))
+                       //return d[1];
+                       return projection(d.lonlat)[1]-14;
+                      // console.log('position02:',projection(d))
                        //return projection(d)[1];
                    })
-                 /*  .append('rect')
-                   .attr('fill','url(#oriange)')*/
+                 /*  .append('rect')*/
+                   .attr('width',28)
+                   .attr('height',28)
+                   //.style('transform','translate(-50%,-50%)')
+                  /* .attr('fill','url(#oriange)')*/
+                   //.attr('xlink:href','../assets/points0.png')
+                   .attr('xlink:href',function () {
+                       return './assets/points'+Math.floor(Math.random()*7)+'.png';
+                   })
+                   .on('click',function(d){
+                       console.log('country:',d);
+                   })
+
+                svg.append('g').selectAll('text')
+                    .data(countryLocation)
+                    .enter()
+                    .append('text')
+                    .text(function (d) {
+                        if(d.name=='Canada'){
+                            return district[0];
+                        }
+                        if(d.name=='United States of America'){
+                            return district[1];
+                        }
+                        if(d.name=='Brazil'){
+                            return district[2];
+                        }
+                        if(d.name=='Norway'){
+                            return district[3];
+                        }
+                        if(d.name=='Switzerland'){
+                            return district[4];
+                        }
+                        if(d.name=='Libya'){
+                            return district[5];
+                        }
+                        if(d.name=='Zambia'){
+                            return district[6];
+                        }
+                        if(d.name=='Uzbekistan'){
+                            return district[7];
+                        }
+                        if(d.name=='Bangladesh'){
+                            return district[8];
+                        }
+                        if(d.name=='Russia'){
+                            return district[9];
+                        }
+                        if(d.name=='China'){
+                            return district[10];
+                        }
+                        if(d.name=='Japan'){
+                            return district[11];
+                        }
+                        if(d.name=='Australia'){
+                            return district[12];
+                        }
+                        return '';
+                    })
+                    .attr('x', function (d) {
+                        return projection(d.lonlat)[0];
+                    })
+                    .attr('y', function (d) {
+                        return projection(d.lonlat)[1];
+                    })
+                    .attr('dy',20)
+                    .attr('fill','#8e9198')
+                    .attr('')
             });
 
-          /*  svg.append("image")
+
+            /**  test 图片 可行*/
+            /*svg.append("image")
                 .attr("class","point")
                 .attr("x",proPeking[0])
                 .attr("y",proPeking[1])
-                .attr('xlink:href','../assets/points.png');*/
-                /*.attr("r",8);*/
+                .attr('xlink:href','../assets/points0.png');*/
+               /* .attr("r",8);*/
             /*      svg.selectAll('circle')
                       .data(root.features)
                       .enter()
@@ -975,14 +1123,7 @@ class Index {
 
         });
 
-        function zoomed() {
-            console.log(d3.event);
-            d3.select('body').select("svg").selectAll('path')
-                .attr("transform", d3.event.transform);
-            d3.select('body').select("svg").selectAll('image')
-                .attr("transform", d3.event.transform);
 
-        }
     }
 
     /**  堆栈图*/

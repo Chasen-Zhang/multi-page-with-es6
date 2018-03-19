@@ -1,0 +1,2308 @@
+{
+  "country": [
+    {
+      "name": "Angola",
+      "nameCN": "安哥拉",
+      "lonlat": [
+        17.873887,
+        -11.202692
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Angola",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Afghanistan",
+      "nameCN": "阿富汗",
+      "lonlat": [
+        67.709953,
+        33.93911
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Afghanistan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Albania",
+      "nameCN": "阿尔巴尼亚",
+      "lonlat": [
+        20.168331,
+        41.153332
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Albania",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Algeria",
+      "nameCN": "阿尔及利亚",
+      "lonlat": [
+        1.659626,
+        28.033886
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Algeria",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Andorra",
+      "nameCN": "安道尔共和国",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Andorra",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Anguilla",
+      "nameCN": "安圭拉岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Anguilla",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "nameCN": "安提瓜和巴布达",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Antigua and Barbuda",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Argentina",
+      "nameCN": "阿根廷",
+      "lonlat": [
+        -63.61667199999999,
+        -38.416097
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Argentina",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Armenia",
+      "nameCN": "亚美尼亚",
+      "lonlat": [
+        45.038189,
+        40.069099
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Armenia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Ascension",
+      "nameCN": "阿森松",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Ascension",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Australia",
+      "nameCN": "澳大利亚",
+      "lonlat": [
+        133.775136,
+        -25.274398
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Australia and New Zealand",
+      "nameEN": "Australia",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Austria",
+      "nameCN": "奥地利",
+      "lonlat": [
+        14.550072,
+        47.516231
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Austria",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Azerbaijan",
+      "nameCN": "阿塞拜疆",
+      "lonlat": [
+        47.576927,
+        40.143105
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Azerbaijan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Bahamas",
+      "nameCN": "巴哈马",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Bahamas",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Bahrain",
+      "nameCN": "巴林",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Bahrain",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Bangladesh",
+      "nameCN": "孟加拉国",
+      "lonlat": [
+        90.356331,
+        23.684994
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Bangladesh",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Barbados",
+      "nameCN": "巴巴多斯",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Barbados",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Belarus",
+      "nameCN": "白俄罗斯",
+      "lonlat": [
+        27.953389,
+        53.709807
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Belarus",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Belgium",
+      "nameCN": "比利时",
+      "lonlat": [
+        4.469936,
+        50.503887
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Belgium",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Belize",
+      "nameCN": "伯利兹",
+      "lonlat": [
+        -88.49765,
+        17.189877
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Belize",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Benin",
+      "nameCN": "贝宁",
+      "lonlat": [
+        2.315834,
+        9.30769
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Benin",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Bermuda Is",
+      "nameCN": "百慕大群岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Bermuda Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Bolivia",
+      "nameCN": "玻利维亚",
+      "lonlat": [
+        -63.58865299999999,
+        -16.290154
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Bolivia",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Botswana",
+      "nameCN": "博茨瓦纳",
+      "lonlat": [
+        24.684866,
+        -22.328474
+      ],
+      "SUBREGION_CN": "南非",
+      "SUBREGION_EN": "Southern Africa",
+      "nameEN": "Botswana",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Brazil",
+      "nameCN": "巴西",
+      "lonlat": [
+        -51.92528,
+        -14.235004
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Brazil",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Brunei",
+      "nameCN": "文莱",
+      "lonlat": [
+        114.727669,
+        4.535277
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Brunei",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Bulgaria",
+      "nameCN": "保加利亚",
+      "lonlat": [
+        25.48583,
+        42.733883
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Bulgaria",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Burkina Faso",
+      "nameCN": "布基纳法索",
+      "lonlat": [
+        -1.561593,
+        12.238333
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Burkina Faso",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Myanmar",
+      "nameCN": "缅甸",
+      "lonlat": [
+        95.956223,
+        21.913965
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Myanmar",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Burundi",
+      "nameCN": "布隆迪",
+      "lonlat": [
+        29.918886,
+        -3.373056
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Burundi",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Cameroon",
+      "nameCN": "喀麦隆",
+      "lonlat": [
+        12.354722,
+        7.369721999999999
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Cameroon",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Canada",
+      "nameCN": "加拿大",
+      "lonlat": [
+        -106.346771,
+        56.130366
+      ],
+      "SUBREGION_CN": "北美",
+      "SUBREGION_EN": "Northern America",
+      "nameEN": "Canada",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Cayman Is",
+      "nameCN": "开曼群岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Cayman Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Central African Republic",
+      "nameCN": "中非共和国",
+      "lonlat": [
+        20.939444,
+        6.611110999999999
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Central African Republic",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Chad",
+      "nameCN": "乍得",
+      "lonlat": [
+        18.732207,
+        15.454166
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Chad",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Chile",
+      "nameCN": "智利",
+      "lonlat": [
+        -71.542969,
+        -35.675147
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Chile",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "China",
+      "nameCN": "中国",
+      "lonlat": [
+        104.195397,
+        35.86166
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "China",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Colombia",
+      "nameCN": "哥伦比亚",
+      "lonlat": [
+        -74.297333,
+        4.570868
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Colombia",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Democratic Republic of the Congo",
+      "nameCN": "刚果",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Congo",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Cook Is",
+      "nameCN": "库克群岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Cook Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Costa Rica",
+      "nameCN": "哥斯达黎加",
+      "lonlat": [
+        -83.753428,
+        9.748917
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Costa Rica",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Cuba",
+      "nameCN": "古巴",
+      "lonlat": [
+        -77.781167,
+        21.521757
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Cuba",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Cyprus",
+      "nameCN": "塞浦路斯",
+      "lonlat": [
+        33.429859,
+        35.126413
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Cyprus",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Czech Republic",
+      "nameCN": "捷克",
+      "lonlat": [
+        15.472962,
+        49.81749199999999
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Czech Republic",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Denmark",
+      "nameCN": "丹麦",
+      "lonlat": [
+        9.501785,
+        56.26392
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Denmark",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Djibouti",
+      "nameCN": "吉布提",
+      "lonlat": [
+        42.590275,
+        11.825138
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Djibouti",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Dominica Rep",
+      "nameCN": "多米尼加共和国",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Dominica Rep",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Ecuador",
+      "nameCN": "厄瓜多尔",
+      "lonlat": [
+        -78.18340599999999,
+        -1.831239
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Ecuador",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Egypt",
+      "nameCN": "埃及",
+      "lonlat": [
+        30.802498,
+        26.820553
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Egypt",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "EI Salvador",
+      "nameCN": "萨尔瓦多",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "EI Salvador",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Estonia",
+      "nameCN": "爱沙尼亚",
+      "lonlat": [
+        25.013607,
+        58.595272
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Estonia",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Ethiopia",
+      "nameCN": "埃塞俄比亚",
+      "lonlat": [
+        40.489673,
+        9.145
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Ethiopia",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Fiji",
+      "nameCN": "斐济",
+      "lonlat": [
+        178.065032,
+        -17.713371
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Melanesia",
+      "nameEN": "Fiji",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Finland",
+      "nameCN": "芬兰",
+      "lonlat": [
+        25.748151,
+        61.92410999999999
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Finland",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "France",
+      "nameCN": "法国",
+      "lonlat": [
+        2.213749,
+        46.227638
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "France",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "French Guiana",
+      "nameCN": "法属圭亚那",
+      "lonlat": [
+        -53.125782,
+        3.933889
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "French Guiana",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "French Polynesia",
+      "nameCN": "法属玻利尼西亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "French Polynesia",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Gabon",
+      "nameCN": "加蓬",
+      "lonlat": [
+        11.609444,
+        -0.803689
+      ],
+      "SUBREGION_CN": "中非",
+      "SUBREGION_EN": "Middle Africa",
+      "nameEN": "Gabon",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Gambia",
+      "nameCN": "冈比亚",
+      "lonlat": [
+        -15.310139,
+        13.443182
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Gambia",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Georgia",
+      "nameCN": "格鲁吉亚",
+      "lonlat": [
+        -82.9000751,
+        32.1656221
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Georgia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Germany",
+      "nameCN": "德国",
+      "lonlat": [
+        10.451526,
+        51.165691
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Germany",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Ghana",
+      "nameCN": "加纳",
+      "lonlat": [
+        -1.023194,
+        7.946527
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Ghana",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Gibraltar",
+      "nameCN": "直布罗陀",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Gibraltar",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Greece",
+      "nameCN": "希腊",
+      "lonlat": [
+        21.824312,
+        39.074208
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Greece",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Grenada",
+      "nameCN": "格林纳达",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Grenada",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Guam",
+      "nameCN": "关岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Micronesia",
+      "nameEN": "Guam",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Guatemala",
+      "nameCN": "危地马拉",
+      "lonlat": [
+        -90.230759,
+        15.783471
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Guatemala",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Guinea",
+      "nameCN": "几内亚",
+      "lonlat": [
+        -9.696645,
+        9.945587
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Guinea",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Guyana",
+      "nameCN": "圭亚那",
+      "lonlat": [
+        -58.93018,
+        4.860416
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Guyana",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Haiti",
+      "nameCN": "海地",
+      "lonlat": [
+        -72.285215,
+        18.971187
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Haiti",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Honduras",
+      "nameCN": "洪都拉斯",
+      "lonlat": [
+        -86.241905,
+        15.199999
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Honduras",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Hongkong",
+      "nameCN": "香港",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Hongkong",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Hungary",
+      "nameCN": "匈牙利",
+      "lonlat": [
+        19.503304,
+        47.162494
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Hungary",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Iceland",
+      "nameCN": "冰岛",
+      "lonlat": [
+        -19.020835,
+        64.963051
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Iceland",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "India",
+      "nameCN": "印度",
+      "lonlat": [
+        78.96288,
+        20.593684
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "India",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Indonesia",
+      "nameCN": "印度尼西亚",
+      "lonlat": [
+        113.921327,
+        -0.789275
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Indonesia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Iran",
+      "nameCN": "伊朗",
+      "lonlat": [
+        53.688046,
+        32.427908
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Iran",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Iraq",
+      "nameCN": "伊拉克",
+      "lonlat": [
+        43.679291,
+        33.223191
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Iraq",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Ireland",
+      "nameCN": "爱尔兰",
+      "lonlat": [
+        -8.24389,
+        53.41291
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Ireland",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Israel",
+      "nameCN": "以色列",
+      "lonlat": [
+        34.851612,
+        31.046051
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Israel",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Italy",
+      "nameCN": "意大利",
+      "lonlat": [
+        12.56738,
+        41.87194
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Italy",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Ivory Coast",
+      "nameCN": "科特迪瓦",
+      "lonlat": [
+        -5.547079999999999,
+        7.539988999999999
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Ivory Coast",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Jamaica",
+      "nameCN": "牙买加",
+      "lonlat": [
+        -77.297508,
+        18.109581
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Jamaica",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Japan",
+      "nameCN": "日本",
+      "lonlat": [
+        138.252924,
+        36.204824
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "Japan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Jordan",
+      "nameCN": "约旦",
+      "lonlat": [
+        36.238414,
+        30.585164
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Jordan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Cambodia",
+      "nameCN": "柬埔寨",
+      "lonlat": [
+        104.990963,
+        12.565679
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Cambodia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Kazakstan",
+      "nameCN": "哈萨克斯坦",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "中亚",
+      "SUBREGION_EN": "Central Asia",
+      "nameEN": "Kazakstan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Kenya",
+      "nameCN": "肯尼亚",
+      "lonlat": [
+        37.906193,
+        -0.023559
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Kenya",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "South Korea",
+      "nameCN": "韩国",
+      "lonlat": [
+        127.766922,
+        35.907757
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "South Korea",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Kuwait",
+      "nameCN": "科威特",
+      "lonlat": [
+        47.481766,
+        29.31166
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Kuwait",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "nameCN": "吉尔吉斯坦",
+      "lonlat": [
+        74.766098,
+        41.20438
+      ],
+      "SUBREGION_CN": "中亚",
+      "SUBREGION_EN": "Central Asia",
+      "nameEN": "Kyrgyzstan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Laos",
+      "nameCN": "老挝",
+      "lonlat": [
+        102.495496,
+        19.85627
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Laos",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Latvia",
+      "nameCN": "拉脱维亚",
+      "lonlat": [
+        24.603189,
+        56.879635
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Latvia",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Lebanon",
+      "nameCN": "黎巴嫩",
+      "lonlat": [
+        35.862285,
+        33.854721
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Lebanon",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Lesotho",
+      "nameCN": "莱索托",
+      "lonlat": [
+        28.233608,
+        -29.609988
+      ],
+      "SUBREGION_CN": "南非",
+      "SUBREGION_EN": "Southern Africa",
+      "nameEN": "Lesotho",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Liberia",
+      "nameCN": "利比里亚",
+      "lonlat": [
+        -9.429499000000002,
+        6.428055
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Liberia",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Libya",
+      "nameCN": "利比亚",
+      "lonlat": [
+        17.228331,
+        26.3351
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Libya",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Liechtenstein",
+      "nameCN": "列支敦士登",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Liechtenstein",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Lithuania",
+      "nameCN": "立陶宛",
+      "lonlat": [
+        23.881275,
+        55.169438
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Lithuania",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Luxembourg",
+      "nameCN": "卢森堡",
+      "lonlat": [
+        6.129582999999999,
+        49.815273
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Luxembourg",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Macao",
+      "nameCN": "澳门",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "Macao",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Madagascar",
+      "nameCN": "马达加斯加",
+      "lonlat": [
+        46.869107,
+        -18.766947
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Madagascar",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Malawi",
+      "nameCN": "马拉维",
+      "lonlat": [
+        34.301525,
+        -13.254308
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Malawi",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Malaysia",
+      "nameCN": "马来西亚",
+      "lonlat": [
+        101.975766,
+        4.210484
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Malaysia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Maldives",
+      "nameCN": "马尔代夫",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Maldives",
+      "CONTINENT_EN": "Seven seas (open ocean)"
+    },
+    {
+      "name": "Mali",
+      "nameCN": "马里",
+      "lonlat": [
+        -3.996166,
+        17.570692
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Mali",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Malta",
+      "nameCN": "马耳他",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Malta",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Mariana Is",
+      "nameCN": "马里亚那群岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Mariana Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Martinique",
+      "nameCN": "马提尼克",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Martinique",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Mauritius",
+      "nameCN": "毛里求斯",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Mauritius",
+      "CONTINENT_EN": "Seven seas (open ocean)"
+    },
+    {
+      "name": "Mexico",
+      "nameCN": "墨西哥",
+      "lonlat": [
+        -102.552784,
+        23.634501
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Mexico",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Moldova",
+      "nameCN": "摩尔多瓦",
+      "lonlat": [
+        28.369885,
+        47.411631
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Moldova",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Monaco",
+      "nameCN": "摩纳哥",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Monaco",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Mongolia",
+      "nameCN": "蒙古",
+      "lonlat": [
+        103.846656,
+        46.862496
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "Mongolia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Montserrat Is",
+      "nameCN": "蒙特塞拉特岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Montserrat Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Morocco",
+      "nameCN": "摩洛哥",
+      "lonlat": [
+        -7.092619999999999,
+        31.791702
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Morocco",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Mozambique",
+      "nameCN": "莫桑比克",
+      "lonlat": [
+        35.529562,
+        -18.665695
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Mozambique",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Namibia",
+      "nameCN": "纳米比亚",
+      "lonlat": [
+        18.49041,
+        -22.95764
+      ],
+      "SUBREGION_CN": "南非",
+      "SUBREGION_EN": "Southern Africa",
+      "nameEN": "Namibia",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Nauru",
+      "nameCN": "瑙鲁",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Micronesia",
+      "nameEN": "Nauru",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Nepal",
+      "nameCN": "尼泊尔",
+      "lonlat": [
+        84.12400799999999,
+        28.394857
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Nepal",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Netheriands Antilles",
+      "nameCN": "荷属安的列斯",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Netheriands Antilles",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Netherlands",
+      "nameCN": "荷兰",
+      "lonlat": [
+        5.291265999999999,
+        52.132633
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Netherlands",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "New Zealand",
+      "nameCN": "新西兰",
+      "lonlat": [
+        174.885971,
+        -40.900557
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Australia and New Zealand",
+      "nameEN": "New Zealand",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Nicaragua",
+      "nameCN": "尼加拉瓜",
+      "lonlat": [
+        -85.207229,
+        12.865416
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Nicaragua",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Niger",
+      "nameCN": "尼日尔",
+      "lonlat": [
+        8.081666,
+        17.607789
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Niger",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Nigeria",
+      "nameCN": "尼日利亚",
+      "lonlat": [
+        8.675277,
+        9.081999
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Nigeria",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "North Korea",
+      "nameCN": "朝鲜",
+      "lonlat": [
+        127.510093,
+        40.339852
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "North Korea",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Norway",
+      "nameCN": "挪威",
+      "lonlat": [
+        8.468945999999999,
+        60.47202399999999
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Norway",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Oman",
+      "nameCN": "阿曼",
+      "lonlat": [
+        55.923255,
+        21.512583
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Oman",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Pakistan",
+      "nameCN": "巴基斯坦",
+      "lonlat": [
+        69.34511599999999,
+        30.375321
+      ],
+      "SUBREGION_CN": "南亚",
+      "SUBREGION_EN": "Southern Asia",
+      "nameEN": "Pakistan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Panama",
+      "nameCN": "巴拿马",
+      "lonlat": [
+        -80.782127,
+        8.537981
+      ],
+      "SUBREGION_CN": "中美",
+      "SUBREGION_EN": "Central America",
+      "nameEN": "Panama",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Papua New Cuinea",
+      "nameCN": "巴布亚新几内亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Papua New Cuinea",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Paraguay",
+      "nameCN": "巴拉圭",
+      "lonlat": [
+        -58.443832,
+        -23.442503
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Paraguay",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Peru",
+      "nameCN": "秘鲁",
+      "lonlat": [
+        -75.015152,
+        -9.189967
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Peru",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Philippines",
+      "nameCN": "菲律宾",
+      "lonlat": [
+        121.774017,
+        12.879721
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Philippines",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Poland",
+      "nameCN": "波兰",
+      "lonlat": [
+        19.145136,
+        51.919438
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Poland",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Portugal",
+      "nameCN": "葡萄牙",
+      "lonlat": [
+        -8.224454,
+        39.39987199999999
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Portugal",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Puerto Rico",
+      "nameCN": "波多黎各",
+      "lonlat": [
+        -66.590149,
+        18.220833
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Puerto Rico",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Qatar",
+      "nameCN": "卡塔尔",
+      "lonlat": [
+        51.183884,
+        25.354826
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Qatar",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Reunion",
+      "nameCN": "留尼旺",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Reunion",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Romania",
+      "nameCN": "罗马尼亚",
+      "lonlat": [
+        24.96676,
+        45.943161
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Romania",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Russia",
+      "nameCN": "俄罗斯",
+      "lonlat": [
+        105.318756,
+        61.52401
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Russia",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Saint Lueia",
+      "nameCN": "圣卢西亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Saint Lueia",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Saint Vincent",
+      "nameCN": "圣文森特岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Saint Vincent",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Samoa Eastern",
+      "nameCN": "东萨摩亚(美)",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Samoa Eastern",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Samoa Western",
+      "nameCN": "西萨摩亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Samoa Western",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "San Marino",
+      "nameCN": "圣马力诺",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "San Marino",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "nameCN": "圣多美和普林西比",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Sao Tome and Principe",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Saudi Arabia",
+      "nameCN": "沙特阿拉伯",
+      "lonlat": [
+        45.079162,
+        23.885942
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Saudi Arabia",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Senegal",
+      "nameCN": "塞内加尔",
+      "lonlat": [
+        -14.452362,
+        14.497401
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Senegal",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Seychelles",
+      "nameCN": "塞舌尔",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Seychelles",
+      "CONTINENT_EN": "Seven seas (open ocean)"
+    },
+    {
+      "name": "Sierra Leone",
+      "nameCN": "塞拉利昂",
+      "lonlat": [
+        -11.779889,
+        8.460555
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Sierra Leone",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Singapore",
+      "nameCN": "新加坡",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Singapore",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Slovakia",
+      "nameCN": "斯洛伐克",
+      "lonlat": [
+        19.699024,
+        48.669026
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Slovakia",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Slovenia",
+      "nameCN": "斯洛文尼亚",
+      "lonlat": [
+        14.995463,
+        46.151241
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Slovenia",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Solomon Is",
+      "nameCN": "所罗门群岛",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Solomon Is",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Somali",
+      "nameCN": "索马里",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Somali",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "South Africa",
+      "nameCN": "南非",
+      "lonlat": [
+        22.937506,
+        -30.559482
+      ],
+      "SUBREGION_CN": "南非",
+      "SUBREGION_EN": "Southern Africa",
+      "nameEN": "South Africa",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Spain",
+      "nameCN": "西班牙",
+      "lonlat": [
+        -3.74922,
+        40.46366700000001
+      ],
+      "SUBREGION_CN": "南欧",
+      "SUBREGION_EN": "Southern Europe",
+      "nameEN": "Spain",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "SriLanka",
+      "nameCN": "斯里兰卡",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "SriLanka",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "St.Lucia",
+      "nameCN": "圣卢西亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "St.Lucia",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "St.Vincent",
+      "nameCN": "圣文森特",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "St.Vincent",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Sudan",
+      "nameCN": "苏丹",
+      "lonlat": [
+        30.217636,
+        12.862807
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Sudan",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Suriname",
+      "nameCN": "苏里南",
+      "lonlat": [
+        -56.027783,
+        3.919305
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Suriname",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Swaziland",
+      "nameCN": "斯威士兰",
+      "lonlat": [
+        31.465866,
+        -26.522503
+      ],
+      "SUBREGION_CN": "南非",
+      "SUBREGION_EN": "Southern Africa",
+      "nameEN": "Swaziland",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Sweden",
+      "nameCN": "瑞典",
+      "lonlat": [
+        18.643501,
+        60.12816100000001
+      ],
+      "SUBREGION_CN": "北欧",
+      "SUBREGION_EN": "Northern Europe",
+      "nameEN": "Sweden",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Switzerland",
+      "nameCN": "瑞士",
+      "lonlat": [
+        8.227511999999999,
+        46.818188
+      ],
+      "SUBREGION_CN": "西欧",
+      "SUBREGION_EN": "Western Europe",
+      "nameEN": "Switzerland",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "Syria",
+      "nameCN": "叙利亚",
+      "lonlat": [
+        38.996815,
+        34.80207499999999
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Syria",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Taiwan",
+      "nameCN": "台湾省",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东亚",
+      "SUBREGION_EN": "Eastern Asia",
+      "nameEN": "Taiwan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Tajikistan",
+      "nameCN": "塔吉克斯坦",
+      "lonlat": [
+        71.276093,
+        38.861034
+      ],
+      "SUBREGION_CN": "中亚",
+      "SUBREGION_EN": "Central Asia",
+      "nameEN": "Tajikistan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Tanzania",
+      "nameCN": "坦桑尼亚",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Tanzania",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Thailand",
+      "nameCN": "泰国",
+      "lonlat": [
+        100.992541,
+        15.870032
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Thailand",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Togo",
+      "nameCN": "多哥",
+      "lonlat": [
+        0.824782,
+        8.619543
+      ],
+      "SUBREGION_CN": "西非",
+      "SUBREGION_EN": "Western Africa",
+      "nameEN": "Togo",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Tonga",
+      "nameCN": "汤加",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "Polynesia",
+      "nameEN": "Tonga",
+      "CONTINENT_EN": "Oceania"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "nameCN": "特立尼达和多巴哥",
+      "lonlat": [
+        -61.222503,
+        10.691803
+      ],
+      "SUBREGION_CN": "加勒比海",
+      "SUBREGION_EN": "Caribbean",
+      "nameEN": "Trinidad and Tobago",
+      "CONTINENT_EN": "North America"
+    },
+    {
+      "name": "Tunisia",
+      "nameCN": "突尼斯",
+      "lonlat": [
+        9.537499,
+        33.886917
+      ],
+      "SUBREGION_CN": "北非",
+      "SUBREGION_EN": "Northern Africa",
+      "nameEN": "Tunisia",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Turkey",
+      "nameCN": "土耳其",
+      "lonlat": [
+        35.243322,
+        38.963745
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Turkey",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Turkmenistan",
+      "nameCN": "土库曼斯坦",
+      "lonlat": [
+        59.556278,
+        38.969719
+      ],
+      "SUBREGION_CN": "中亚",
+      "SUBREGION_EN": "Central Asia",
+      "nameEN": "Turkmenistan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Uganda",
+      "nameCN": "乌干达",
+      "lonlat": [
+        32.290275,
+        1.373333
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Uganda",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Ukraine",
+      "nameCN": "乌克兰",
+      "lonlat": [
+        31.16558,
+        48.379433
+      ],
+      "SUBREGION_CN": "东欧",
+      "SUBREGION_EN": "Eastern Europe",
+      "nameEN": "Ukraine",
+      "CONTINENT_EN": "Europe"
+    },
+    {
+      "name": "United Arab Emirates",
+      "nameCN": "阿拉伯联合酋长国",
+      "lonlat": [
+        53.847818,
+        23.424076
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "United Arab Emirates",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "United Kiongdom",
+      "nameCN": "英国",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "United Kiongdom",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "United States of America",
+      "nameCN": "美国",
+      "lonlat": [
+        -95.712891,
+        37.09024
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "United States of America",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Uruguay",
+      "nameCN": "乌拉圭",
+      "lonlat": [
+        -55.765835,
+        -32.522779
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Uruguay",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Uzbekistan",
+      "nameCN": "乌兹别克斯坦",
+      "lonlat": [
+        64.585262,
+        41.377491
+      ],
+      "SUBREGION_CN": "中亚",
+      "SUBREGION_EN": "Central Asia",
+      "nameEN": "Uzbekistan",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Venezuela",
+      "nameCN": "委内瑞拉",
+      "lonlat": [
+        -66.58973,
+        6.42375
+      ],
+      "SUBREGION_CN": "南美",
+      "SUBREGION_EN": "South America",
+      "nameEN": "Venezuela",
+      "CONTINENT_EN": "South America"
+    },
+    {
+      "name": "Vietnam",
+      "nameCN": "越南",
+      "lonlat": [
+        108.277199,
+        14.058324
+      ],
+      "SUBREGION_CN": "东南亚",
+      "SUBREGION_EN": "South-Eastern Asia",
+      "nameEN": "Vietnam",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Yemen",
+      "nameCN": "也门",
+      "lonlat": [
+        48.516388,
+        15.552727
+      ],
+      "SUBREGION_CN": "西亚",
+      "SUBREGION_EN": "Western Asia",
+      "nameEN": "Yemen",
+      "CONTINENT_EN": "Asia"
+    },
+    {
+      "name": "Yugoslavia",
+      "nameCN": "南斯拉夫",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Yugoslavia",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Zimbabwe",
+      "nameCN": "津巴布韦",
+      "lonlat": [
+        29.154857,
+        -19.015438
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Zimbabwe",
+      "CONTINENT_EN": "Africa"
+    },
+    {
+      "name": "Zaire",
+      "nameCN": "扎伊尔",
+      "lonlat": [
+        0,
+        0
+      ],
+      "SUBREGION_CN": "",
+      "SUBREGION_EN": "",
+      "nameEN": "Zaire",
+      "CONTINENT_EN": ""
+    },
+    {
+      "name": "Zambia",
+      "nameCN": "赞比亚",
+      "lonlat": [
+        27.849332,
+        -13.133897
+      ],
+      "SUBREGION_CN": "东非",
+      "SUBREGION_EN": "Eastern Africa",
+      "nameEN": "Zambia",
+      "CONTINENT_EN": "Africa"
+    }
+  ]
+}

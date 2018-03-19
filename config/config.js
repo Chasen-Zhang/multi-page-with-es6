@@ -1,7 +1,7 @@
 module.exports={
-    dev_host:"localhost",
-    dev_port:1996,
-    favicon:'./src/images/favicon.ico',
+    dev_host:"192.168.40.223",
+    dev_port:1997,
+    favicon:'./src/assets/test.ico',
     commonname:"common",
     entrys:[
         {

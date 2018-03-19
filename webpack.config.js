@@ -12,9 +12,8 @@ let HTMLPlugins = [];
 let Entries = {};
 // 生成多页面的集合
 config.entrys.forEach((page) => {
-    console.log(page);
     let htmlPlugin = new HtmlWebpackPlugin({ //根据模板插入css/js等生成最终HTML
-       /* favicon: config.favicon, //favicon路径，通过webpack引入同时可以生成hash值*/
+        favicon: config.favicon, //favicon路径，通过webpack引入同时可以生成hash值*/
         filename: page.filename, //生成的html存放路径，相对于path
         template: page.template, //html模板路径
         title:page.title,
